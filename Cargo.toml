@@ -1,0 +1,13 @@
+[package]
+name = "pong"
+version = "0.1.0"
+edition = "2021"
+publish = false
+license-file = "LICENSE.txt"
+readme = "README.md"
+description = "The ubiquitous Pong arcade game"
+repository = "https://github.com/bwbg/pong-rs.git"
+
+[dependencies]
+sdl2 = "0.36.0"
+thiserror = "1.0.61"
