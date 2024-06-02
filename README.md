@@ -14,4 +14,13 @@ The first choice I had to make was what library to use to display the game and h
 [HDOC]: https://100daysofcode.com "#100DaysOfCode"
 [REPO]: https://github.com/bwbg/pong-rs.git "Project's Repository"
 [BEVY]: https://bevyengine.org/ "Bevy Game Engine"
-[SDL2]: https://libsdl.org/ "Simple DirectMedia Layer" 
+[SDL2]: https://libsdl.org/ "Simple DirectMedia Layer"
+
+#### Addendum
+
+I was itching to present at least a blank window to myself so I typed the example from the SDL2 documentation. I added the `config` module to avoid magic constants in my code. Addidtional 20 minutes worth of coding today.
+
+Notes:
+
+- On Windows add the SDL2 development libraries (`*.lib`) to `%USERPROFILE%\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib` as well as the `SDL2.dll` to your project's root directory.
+- Use `cargo doc --open` to view your own crate's documentation as well as the documentation from any dependencies.

@@ -1,2 +1,5 @@
 # Cargo
 /target
+
+# Third party binaries such as libraries
+*.dll
