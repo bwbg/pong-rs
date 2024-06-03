@@ -5,6 +5,10 @@ code challenge [`#100DaysOfCode`][HDOC].
 
 ## Development Log
 
+Days:
+[1](#day-1),
+[2](#day-2)
+
 ### Day 1
 
 This is the first day of the [`#100DaysOfCode`][HDOC] challenge. Today I setup the project's repository and made an initial commit with some basic additions to the configuration file and code structure.
@@ -24,3 +28,9 @@ Notes:
 
 - On Windows add the SDL2 development libraries (`*.lib`) to `%USERPROFILE%\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib` as well as the `SDL2.dll` to your project's root directory.
 - Use `cargo doc --open` to view your own crate's documentation as well as the documentation from any dependencies.
+
+## Day 2
+
+My goal for the second day was to draw some stub graphics onto the screen. This goal was more or less reached. Using SDL2 with Rust is *a little bit* more challenging than Python (PyGame). At least some green boxes appear on the screen.
+
+Nonetheless I got more experienced in navigating the documentation.
