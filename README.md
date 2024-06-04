@@ -7,7 +7,8 @@ code challenge [`#100DaysOfCode`][HDOC].
 
 Days:
 [1](#day-1),
-[2](#day-2)
+[2](#day-2),
+[3](#day-3),
 
 ### Day 1
 
@@ -34,3 +35,9 @@ Notes:
 My goal for the second day was to draw some stub graphics onto the screen. This goal was more or less reached. Using SDL2 with Rust is *a little bit* more challenging than Python (PyGame). At least some green boxes appear on the screen.
 
 Nonetheless I got more experienced in navigating the documentation.
+
+## Day 3
+
+Fudged around the code without having a plan really. Tried things here and there and disposed almost every change. The reason might be because I didn't have any time to think about what to do next beforehand. In the last twenty minutes I decided to decouple the presentation and going to implement some math stuff - which I will continue on Day 4.
+
+*Conclusion*: Don't start the computer without having a plan. Exhaustive days won't boost creativity.

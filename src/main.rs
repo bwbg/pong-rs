@@ -3,6 +3,7 @@
 
 mod config;
 mod error;
+mod game;
 mod prelude;
 mod view;
 
